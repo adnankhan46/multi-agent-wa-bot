@@ -1,9 +1,9 @@
 import { ArrowUpRight, Check, MessageCircle } from "lucide-react"
 
 const NAV = [
-  { label: "Features", href: "#features" },
-  { label: "How it works", href: "#how" },
-  { label: "Contact", href: "#contact" },
+  { label: "Features", href:"https://github.com/adnankhan46/multi-agent-wa-bot#features" },
+  { label: "How it works", href:"https://github.com/adnankhan46/multi-agent-wa-bot#how" },
+  { label: "Contact", href:"https://github.com/adnankhan46/multi-agent-wa-bot#contact" },
 ]
 
 const STATS = [
@@ -105,7 +105,7 @@ export default function HomePage() {
               <option>हिंदी</option>
             </select>
             <a
-              href="#contact"
+              href="https://github.com/adnankhan46/multi-agent-wa-bot"
               className="inline-flex items-center gap-1.5 text-sm font-medium bg-stone-900 text-white px-4 py-2 rounded-md hover:bg-green-700 transition-colors"
             >
               Open chat
@@ -139,13 +139,13 @@ export default function HomePage() {
 
             <div className="mt-8 flex items-center gap-6">
               <a
-                href="#contact"
+                href="https://github.com/adnankhan46/multi-agent-wa-bot"
                 className="inline-flex items-center gap-2 bg-green-600 text-white px-5 py-3 rounded-md text-sm font-medium hover:bg-green-700 transition-colors"
               >
                 <MessageCircle className="w-4 h-4" />
                 Message us on WhatsApp
               </a>
-              <a href="#how" className="text-sm font-medium text-stone-700 hover:text-green-700 transition-colors">
+              <a href="https://github.com/adnankhan46/multi-agent-wa-bot" className="text-sm font-medium text-stone-700 hover:text-green-700 transition-colors">
                 See how it works &rarr;
               </a>
             </div>
@@ -260,13 +260,13 @@ export default function HomePage() {
             <span className="text-sm text-stone-400 ml-2">&copy; {new Date().getFullYear()}</span>
           </div>
           <div className="flex gap-6 text-xs text-stone-500">
-            <a href="#" className="hover:text-stone-900 transition-colors">
+            <a href="https://github.com/adnankhan46/multi-agent-wa-bot" className="hover:text-stone-900 transition-colors">
               Privacy
             </a>
-            <a href="#" className="hover:text-stone-900 transition-colors">
+            <a href="https://github.com/adnankhan46/multi-agent-wa-bot" className="hover:text-stone-900 transition-colors">
               Terms
             </a>
-            <a href="#" className="hover:text-stone-900 transition-colors">
+            <a href="https://github.com/adnankhan46/multi-agent-wa-bot" className="hover:text-stone-900 transition-colors">
               Support
             </a>
           </div>
